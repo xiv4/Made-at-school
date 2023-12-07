@@ -1,6 +1,6 @@
 import requests
 
-STR_NOTIFY_TOKEN = 'xJq84nSWGKPRyahHMJPMbm4YviW9f9jZERxu5tOsW3a'
+STR_NOTIFY_TOKEN = '[APIコード]'
 STR_NOTICE_MESSAGE = 'LINEへのメッセージ'
 
 def send_line_notification(token, message):
