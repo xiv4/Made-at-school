@@ -1,0 +1,12 @@
+[Unit]
+Description=acc_cam Service Description
+#After=
+
+[Service]
+ExecStart=/usr/bin/python3 /home/ccuser/Desktop/production/acc_cam.py
+WorkingDirectory=/home/ccuser/Desktop/production
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
